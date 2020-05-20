@@ -7,9 +7,11 @@ const Contact = (props) => {
   return (
       <div className="contact">
         <div className="contact__header"> Contact us</div>
-        <div>let know how we can help</div>
+        <div className="contact__describtion">let know how we can help</div>
         <textarea />
-        <button className="btn"> send </button>
+        <div>
+          <button className="btn"> send </button>
+        </div>
       </div>
   )
 };

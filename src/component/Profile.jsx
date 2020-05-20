@@ -13,18 +13,21 @@ const Profile = (props) => {
   return (
       <div className="profile">
         <div className="profile__card">
-            <div>
+             <div className="profile__image">
+                 <img src={require('../icons/icon.jpg')} />
+             </div>
+            <div className="profile__wrapper">
                 <div className="profile__headers">
                     <div className="profile__headers__details">
                         <div className="profile__header"> Full name</div>
                         <div className="profile__value"> Super amin</div>
                     </div>
-                    <div>edit</div>
+                    {/* <div className="profile__headers__edit">edit</div> */}
                 </div>
                 <div className="profile__headers">
                     <div>
-                        <div className="profile__header"> Full name</div>
-                        <div className="profile__value"> Super amin</div>
+                        <div className="profile__header"> Email</div>
+                        <div className="profile__value"> Super@yahoo.com</div>
                     </div>
                 </div>
             </div>
