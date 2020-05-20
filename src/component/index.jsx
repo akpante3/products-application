@@ -15,8 +15,8 @@ const Home = (props) => {
   return (
       <div className="home">
           <aside className="side-bar">
-               <div>
-                   <img src="" alt="logo"/>
+               <div className="side-bar__logo">
+                   <img src={require('../icons/app_logo.png')} alt="logo"/>
                </div>
                <div className="side-bar__links">
                     <Link to='/'><div className="side-bar__links__link"> Profile</div></Link>
